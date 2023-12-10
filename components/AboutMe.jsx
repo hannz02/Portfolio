@@ -9,10 +9,12 @@ const TAB_DATA = [
         id: "skills",
         content: (
           <ul className="list-disc pl-2">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>JavaScript</li>
-                <li>Solidity</li>
+                <li>JAVA</li>
+                <li>C-Programming</li>
+                <li>C++t</li>
+                <li>Python</li>
+                <li>R-Programming</li>
+                <li>SAS</li>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>Tailwind CSS</li>
@@ -45,7 +47,7 @@ const TAB_DATA = [
         content: (
           <ul className="list-disc pl-2">
                 <li>Asia Pacific University</li>
-                <li>Tsun Jin High School</li>
+                <li>SMJK Chung Ling</li>
           </ul>
         ),
     }
@@ -69,9 +71,7 @@ const AboutMe = () => {
                 </div>
                 <div className="mt-4 md:mt-0 text-left flex flex-col h-full">
                     <h1 className="text-4xl font-bold text-white mb-4">About Me</h1>
-                    <p className="text-base text-justify lg:text-lg">I am currently pursuing a degree in Cyber Security at APU, where I have been honing my skills in various technologies. I am familiar in frontend development, with expertise in React, Next.js, HTML, CSS, and I'm skilled in creating visually appealing and user-friendly interfaces using Tailwind CSS.
-                        Additionally, I've ventured into the world of blockchain development, particularly with Solidity, allowing me to build smart contracts for decentralized applications.
-                        My passion for technology and problem-solving has led me to actively participate in 11 hackathons this year, where I primarily serve as a Front End Developer. However, I am not limited to frontend tasks and often take on backend responsibilities, demonstrating my versatility and commitment to delivering complete solutions. </p>
+                    <p className="text-base text-justify lg:text-lg">The person above, ya, that's me right there, the name I was given with is Kor Yu Hann, I'm currently 21, one would say that this is the prime year for a person, I couldn't agree more. Througout these 21 years, I learned a lot about life, I'm not saying that I am the best because of this, I am still striving for the best of course, what I am trying to say is that I learned a lot to become the person I am today, I do have my flaws, and these flaws are what prepared me to face what I am about to face in the future. </p>
                     <div className="flex flex-row mt-8">
 {/* 1e */}
                         <TabButton 
